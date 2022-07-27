@@ -1,0 +1,22 @@
+# testcase 1 - result sucess
+
+# emailid : kavi.krish0@gmail.com
+# password : Kavin@2000
+
+# testcase 2
+# emailid - hurdles
+
+# 1.1 kavin.gmail.com (F) - kavin@gmail.com
+# 1.2 kavin@gamilcom (F) - kavin@gamil.com
+# 2.1 @gmail.com (F) - k@gmail.com
+# 3. kavin@.com (F) - kavin@gmail.com
+# 3.1 #kavin@gmail.com
+# 3.2 1kavin@gmail.com
+
+# testcase 3
+# password hurdles
+# 1 passw ; passwordpassword (F) - password
+# 2.1 password (F) - password@
+# 2.2 password@ (F) - password@1
+# 2.3 password@1 (F) - Password@1
+# 2.4 PASSWORD@1 (F) - Password@1
