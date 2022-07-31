@@ -15,8 +15,8 @@
 
 # testcase 3
 # password hurdles
-# 1 passw ; passwordpassword (F) - password
-# 2.1 password (F) - password@
-# 2.2 password@ (F) - password@1
-# 2.3 password@1 (F) - Password@1
-# 2.4 PASSWORD@1 (F) - Password@1
+# 1 passw ; password (F) - passwordpassword
+# 2.1 password (F) - passwordpassword@
+# 2.2 password@ (F) - password@1password
+# 2.3 password@1 (F) - Password@1password
+# 2.4 PASSWORD@1 (F) - Password@1password
