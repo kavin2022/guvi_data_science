@@ -1,7 +1,7 @@
 # testcase 1 - result sucess
 
 # emailid : kavi.krish0@gmail.com
-# password : Kavin@2000
+# password : Password@1password
 
 # testcase 2
 # emailid - hurdles
