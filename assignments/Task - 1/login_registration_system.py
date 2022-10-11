@@ -85,7 +85,7 @@ def check_emailidformat(mailid):
 def check_passwordformat(password):
     '''
     it checks if the password format conditions are satisfied
-    1. length more than 16
+    1. length more than 5 and less than 16
     2 must contain
         2.1 one spl.charc
         2.2 one digit
@@ -96,7 +96,7 @@ def check_passwordformat(password):
     '''
 
     chars = set(string.punctuation)
-    if 5 < len(password) > 16: # 1
+    if 5 < len(password) < 16: # 1
         if any(i in chars for i in password): # 2.1
             if bool(re.search(r'\d', password)): # 2.2
                 if bool(re.search(r'[A-Z]', password)): # 2.3
@@ -112,7 +112,7 @@ def check_passwordformat(password):
             print('password should contain atleast one special character')
             return check_passwordformat(input('Re enter password : '))
     else:
-        print('length should be more than 16')
+        print('length should be more than 5 and less than 16')
         return check_passwordformat(input('Re enter password : '))
 
 # search and format functions
